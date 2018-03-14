@@ -1,0 +1,15 @@
+.section {
+  --font-size: 20px;
+
+  display: flex;
+
+  &--title {
+    margin: 0;
+    font-size: var(--font-size);
+  }
+
+  &--icon {
+    font-size: var(--font-size);
+    margin-right: 5px;
+  }
+}

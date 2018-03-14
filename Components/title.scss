@@ -1,0 +1,17 @@
+.title {
+  font-size: 18pt;
+  font-weight: 300;
+  text-transform: capitalize;
+  color: #000;
+  margin-bottom: 5px;
+  margin-top: 0px;
+
+  &-first {
+    font-weight: 700;
+  }
+}
+
+.sub-title {
+  margin-top: 0px;
+  font-weight: 400;
+}

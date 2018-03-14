@@ -1,0 +1,47 @@
+.section-body {
+  --right-margin: 25px;
+
+  margin-left: 20px;
+
+  &--header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 0 0;
+  }
+
+  &--title,
+  &--subtitle {
+    margin: 5px 0;
+  }
+
+  &--title {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  &--subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  &--right-text {
+    margin-right: var(--right-margin);
+    font-size: 14px;
+  }
+
+  &--list {
+    padding-left: 20px;
+    margin: 10px 0;
+  }
+
+  &--list--item {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  &--content {
+    margin-right: var(--right-margin);
+  }
+}
