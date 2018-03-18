@@ -16,21 +16,3 @@ body {
   background: #999;
   font-family: 'Roboto', sans-serif;
 }
-
-.container {
-  margin: 0 auto;
-  padding: 20px;
-  background: #fff;
-  width: var(--page-width);
-  height: var(--page-height);
-  display: flex;
-
-  &--left {
-    flex: 3;
-  }
-
-  &--right {
-    background: #555;
-    flex: 1;
-  }
-}

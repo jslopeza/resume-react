@@ -1,13 +1,11 @@
 .section-body {
   --right-margin: 25px;
 
-  margin-left: 20px;
-
   &--header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 0 0 0;
+    margin: 5px 0 0 0;
   }
 
   &--title,
@@ -16,7 +14,7 @@
   }
 
   &--title {
-    font-size: 16px;
+    font-size: 15px;
     text-transform: uppercase;
     font-weight: 500;
   }
@@ -33,7 +31,7 @@
 
   &--list {
     padding-left: 20px;
-    margin: 10px 0;
+    margin: 5px 0 8px 0;
   }
 
   &--list--item {

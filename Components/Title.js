@@ -2,7 +2,7 @@ import React from 'react';
 import './title.scss';
 
 const Title = () => (
-  <div>
+  <div className="title--container">
     <h1 className="title">
       <span className="title-first">Binoy</span> Patel
     </h1>

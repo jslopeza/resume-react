@@ -7,11 +7,31 @@ const LeftContainer = () => (
   <div className="container--left">
     <Title />
     {/* Experience */}
-    <SectionTitle title="Experiences" icon="work" />
+    <SectionTitle title="Experiences" icon="briefcase" />
     <SectionBody
       title="Application Developer"
       subTitle="ADP"
-      rightText="July 17 - Present"
+      rightText="April 17 - Present"
+      body={[
+        'Culpa duis consectetur incididunt reprehenderit esse nostrud non quis velit consequat.',
+        'Sit aliqua veniam esse reprehenderit aliqua excepteur consectetur officia ullamco quis eu cillum.',
+        'Adipisicing fugiat esse dolor nisi aute excepteur quis sit aute ipsum.',
+      ]}
+    />
+    <SectionBody
+      title="Founder"
+      subTitle="Tangential LLC"
+      rightText="April 17 - Present"
+      body={[
+        'Culpa duis consectetur incididunt reprehenderit esse nostrud non quis velit consequat.',
+        'Sit aliqua veniam esse reprehenderit aliqua excepteur consectetur officia ullamco quis eu cillum.',
+        'Adipisicing fugiat esse dolor nisi aute excepteur quis sit aute ipsum.',
+      ]}
+    />
+    <SectionBody
+      title="Co-Founder"
+      subTitle="gr8Dine Inc"
+      rightText="Sep 15 - Dec 17"
       body={[
         'Culpa duis consectetur incididunt reprehenderit esse nostrud non quis velit consequat.',
         'Sit aliqua veniam esse reprehenderit aliqua excepteur consectetur officia ullamco quis eu cillum.',
@@ -43,32 +63,36 @@ const LeftContainer = () => (
       title="Web Tier Intern"
       subTitle="ADP"
       rightText="Jan 15 - Apr 15"
-      body={[
-        'Created a MEAN stack application that would get configuration files from multiple servers and provide an interface for user to query the configurations.',
-      ]}
+      // body={[
+      //   'Created a MEAN stack application that would get configuration files from multiple servers and provide an interface for user to query the configurations.',
+      // ]}
     />
     <SectionBody
       title="Intern Software Developer"
       subTitle="Addteq"
       rightText="Nov 14 - Jan 15"
-      body={[
-        'Worked on adding new features and fixed issues with existing project. That made heavy use of Bootstrap and jQuery.',
-        'Wrote Back-End modules using Perl and MySql for supporting new FrontEnd features.',
-      ]}
+      // body={[
+      //   'Worked on adding new features and fixed issues with existing project. That made heavy use of Bootstrap and jQuery.',
+      //   'Wrote Back-End modules using Perl and MySql for supporting new FrontEnd features.',
+      // ]}
     />
     <SectionBody
       title="Software Engineering Intern"
       subTitle="McGraw Hill Financial - S&P Capital IQ"
       rightText="Jun 14 - Aug 14"
-      body={[
-        'Converted server rendered multi page application into a single page application using ExtJS.',
-        'Created search bar with typeahead which queried Apache Solr for data.',
-        'Created custom component in ExtJS which would streamline the migration process by providing consistent look.',
-      ]}
+      // body={[
+      //   'Converted server rendered multi page application into a single page application using ExtJS.',
+      //   'Created search bar with typeahead which queried Apache Solr for data.',
+      //   'Created custom component in ExtJS which would streamline the migration process by providing consistent look.',
+      // ]}
     />
 
     {/* Education */}
-    <SectionTitle title="Education" icon="school" />
+    <SectionTitle
+      title="Education"
+      icon="graduation-cap"
+      style={{ marginTop: '10px' }}
+    />
     <SectionBody
       title="Bachelor of Science in Web & Information Systems"
       subTitle="New Jersey Institute of Technology"

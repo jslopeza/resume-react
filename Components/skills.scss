@@ -1,0 +1,19 @@
+.skills {
+  &--heading {
+    margin: 0px;
+    font-size: 14px;
+  }
+  &--content {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  &--list {
+    padding-left: 15px;
+
+    &--item {
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+}

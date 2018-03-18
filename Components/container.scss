@@ -1,0 +1,19 @@
+.container {
+  margin: 0 auto;
+  padding: 0 20px 0 30px;
+  background: #fff;
+  width: var(--page-width);
+  height: var(--page-height);
+  display: flex;
+
+  &--left {
+    flex: 3;
+    margin-top: 20px;
+  }
+
+  &--right {
+    background: #eee;
+    padding: 0px 20px;
+    flex: 1;
+  }
+}
