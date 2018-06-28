@@ -10,7 +10,6 @@ const LeftContainer = () => (
     {/* Experience */}
     <SectionTitle title="Experiences" icon="briefcase" />
     <Experiences />
-
     {/* Education */}
     <SectionTitle
       title="Education"

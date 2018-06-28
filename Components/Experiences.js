@@ -8,8 +8,12 @@ const Experiences = () => (
       subTitle="ADP"
       rightText="April 17 - Present"
       body={[
-        'Work on application built using React on the Front-End and multiple NodeJS microservices on the Back-End.',
-        'Built REST API layer on legacy SOAP applications.',
+        `Worked on a mission critical application that provided a "One stop shop" for all service and CRM relevant information to assist clients on phone or chat.`,
+        'Created and managed microservices for different features in the application.',
+        'Collaborated with external partners for creating REST API design.',
+        'Created REST API layer on top of legacy SOAP Web Services.',
+        'Using MongoDB, created caching layer for certain API calls to decrease response times.',
+        'Worked on modern frontend architecture, involving React, Redux and Typescript, built using Webpack',
       ]}
     />
     <SectionBody
@@ -17,8 +21,9 @@ const Experiences = () => (
       subTitle="Tangential LLC"
       rightText="April 17 - Present"
       body={[
-        'Started consulting company helping build Web and Mobile applications.',
-        'Helped client with iOS application built using React Native, GraphQL and NodeJS.',
+        'Started consulting company to help companies build Web and Mobile applications.',
+        'Worked on an iOS application built using React Native, GraphQL and NodeJS.',
+        'Created an application to help an accounting firm to dynamically extract data from Quickbooks to Google Sheets.',
       ]}
     />
     <SectionBody
@@ -26,9 +31,9 @@ const Experiences = () => (
       subTitle="gr8Dine Inc"
       rightText="Sep 15 - Dec 17"
       body={[
-        'Meet with potential customers to conduct User research and create application requirements.',
-        'Find and lead team of developers to build iOS application.',
-        'Create marketing material to advertise the product to customers and investors.',
+        'Collaborated with clients to conduct user research and produce application requirements.',
+        'Created, lead and cultivated a team of developers to build iOS application.',
+        'Developed marketing material to showcase the application to customers and investors.',
       ]}
     />
     <SectionBody
@@ -38,26 +43,25 @@ const Experiences = () => (
       body={[
         'Converted an AngularJS application to use Typescript and Webpack, modularizing our code and decreasing load times and number of requests by over 75%.',
         'Refactored internal AngularJS library to allow compatibility with modular code.',
-        'Rewrote AngularJS application in React and Redux from ground up and configured development environment Docker.',
+        'Rewrote AngularJS application in React and Redux from ground up and configured development environment using Docker.',
       ]}
     />
     <SectionBody
-      title="Junior Software Developer"
+      title="Software Developer"
       subTitle="Monimus LLC - Showdme"
       rightText="Fed 15 - Dec 15"
       body={[
         'Created new features based on business specifications and designs provided.',
-        'Updated application interface based on provided designs.',
-        'Managed team of 4 people offshore by reviewing their work, assigning them tasks and working with them to assure the timeline was met and the tasks were delivered.',
+        'Managed team of people offshore by reviewing their work, assigning them tasks and working with them to assure the timeline was met and the tasks were delivered.',
       ]}
     />
     <SectionBody
       title="Web Tier Intern"
       subTitle="ADP"
       rightText="Jan 15 - Apr 15"
-      // body={[
-      //   'Created a MEAN stack application that would get configuration files from multiple servers and provide an interface for user to query the configurations.',
-      // ]}
+      body={[
+        'Created a MEAN stack application that fetched Apache configuration from multiple servers and provided an interface to do full text search.',
+      ]}
     />
     <SectionBody
       title="Intern Software Developer"

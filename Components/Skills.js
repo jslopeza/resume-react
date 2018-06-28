@@ -18,9 +18,9 @@ const skills = [
   'MongoDb',
   'RethinkDb',
   'Git',
-  'HTML',
-  'CSS',
   'Docker',
+  'Splunk',
+  'Webpack',
 ];
 
 const Skills = () => (
@@ -31,11 +31,11 @@ const Skills = () => (
     <h4 className="skills--heading">Miscellaneous Skills</h4>
     <ul className="skills--list">
       <li className="skills--list--item">
-        Agile Development and Continuous Integration methods
+        Agile SCRUM development methodologies
       </li>
       <li className="skills--list--item">Unix Command Line</li>
       <li className="skills--list--item">
-        Deploying and hosting applications on AWS or custom linux server
+        Deploying and hosting applications on AWS or linux servers
       </li>
     </ul>
   </div>
