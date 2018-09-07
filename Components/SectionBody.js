@@ -2,7 +2,14 @@ import React from 'react';
 
 import './sectionBody.scss';
 
-const SectionBody = ({ title, subTitle, rightText, body }) => {
+const SectionBody = ({
+  title,
+  company,
+  rightText,
+  body,
+  title2,
+  rightText2,
+}) => {
   let sectionBody = null;
 
   if (typeof body === 'object') {
@@ -21,10 +28,17 @@ const SectionBody = ({ title, subTitle, rightText, body }) => {
 
   return (
     <div className="section-body">
+      {title2 &&
+        rightText2 && (
+          <div className="section-body--header">
+            <h2 className="section-body--title">{title2}</h2>
+            <div className="section-body--right-text">{rightText2}</div>
+          </div>
+        )}
       <div className="section-body--header">
         <div className="section-body--info">
           <h2 className="section-body--title">{title}</h2>
-          <h3 className="section-body--subtitle">{subTitle}</h3>
+          <h3 className="section-body--subtitle">{company}</h3>
         </div>
         <div className="section-body--right-text">{rightText}</div>
       </div>

@@ -18,7 +18,7 @@ const LeftContainer = () => (
     />
     <SectionBody
       title="Bachelor of Science in Web & Information Systems"
-      subTitle="New Jersey Institute of Technology"
+      company="New Jersey Institute of Technology"
       rightText="2012 - 2016"
     />
   </div>

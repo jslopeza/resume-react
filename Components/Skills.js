@@ -3,8 +3,8 @@ import SectionTitle from './SectionTitle';
 import './skills.scss';
 
 const skills = [
-  'Javascript',
-  'Typescript',
+  'JavaScript',
+  'TypeScript',
   'ES2015+',
   'React',
   'Redux',
