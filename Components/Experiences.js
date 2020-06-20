@@ -4,6 +4,13 @@ import SectionBody from './SectionBody';
 const Experiences = () => (
   <React.Fragment>
     <SectionBody
+      company="The Knot Worldwide (previously xogroup)"
+      title="Senior Software Engineer"
+      body={[
+        `TODO-FILL`
+      ]}
+    />
+    <SectionBody
       company="ADP"
       title="Application Developer"
       rightText="Apr 17 - Sept 18"
@@ -49,7 +56,7 @@ const Experiences = () => (
         'Configured development environment using Docker.',
       ]}
     />
-    <SectionBody
+    {/* <SectionBody
       title="Software Developer"
       company="Monimus LLC - Showdme"
       rightText="Fed 15 - Dec 15"
@@ -70,21 +77,21 @@ const Experiences = () => (
       title="Intern Software Developer"
       company="Addteq"
       rightText="Nov 14 - Jan 15"
-      // body={[
-      //   'Worked on adding new features and fixed issues with existing project. That made heavy use of Bootstrap and jQuery.',
-      //   'Wrote Back-End modules using Perl and MySql for supporting new FrontEnd features.',
-      // ]}
+      body={[
+        'Worked on adding new features and fixed issues with existing project. That made heavy use of Bootstrap and jQuery.',
+        'Wrote Back-End modules using Perl and MySql for supporting new FrontEnd features.',
+      ]}
     />
     <SectionBody
       title="Software Engineering Intern"
       company="McGraw Hill Financial - S&P Capital IQ"
       rightText="Jun 14 - Aug 14"
-      // body={[
-      //   'Converted server rendered multi page application into a single page application using ExtJS.',
-      //   'Created search bar with typeahead which queried Apache Solr for data.',
-      //   'Created custom component in ExtJS which would streamline the migration process by providing consistent look.',
-      // ]}
-    />
+      body={[
+        'Converted server rendered multi page application into a single page application using ExtJS.',
+        'Created search bar with typeahead which queried Apache Solr for data.',
+        'Created custom component in ExtJS which would streamline the migration process by providing consistent look.',
+      ]}
+    /> */}
   </React.Fragment>
 );
 

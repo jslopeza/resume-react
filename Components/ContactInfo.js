@@ -22,7 +22,7 @@ const contactInfo = [
   },
   {
     icon: 'map-marker',
-    title: 'Rockaway, NJ',
+    title: 'Raleigh, NC',
   },
 ];
 
