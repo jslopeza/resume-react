@@ -3,23 +3,21 @@ import SectionTitle from './SectionTitle';
 import './skills.scss';
 
 const skills = [
-  'JavaScript',
   'TypeScript',
-  'ES2015+',
+  'JavaScript',
   'React',
   'Redux',
   'React Native',
   'NodeJs',
   'GraphQL',
-  'Electron',
-  'Firebase',
+  'Serverless Framework',
+  'AWS Lambdas',
   'Gatsby',
   'Postgresql',
   'MongoDb',
-  'RethinkDb',
+  'Electron',
   'Git',
   'Docker',
-  'Splunk',
   'Webpack',
 ];
 

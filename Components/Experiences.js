@@ -6,16 +6,18 @@ const Experiences = () => (
     <SectionBody
       company="The Knot Worldwide (previously xogroup)"
       title="Senior Software Engineer"
+      rightText="Dec 18 - Present"
       body={[
-        `TODO-FILL`
+        'Helped transition public facing application from Rails template to NextJS improving design and performance',
+        'Collaborated on moving authenticated experiences from Rails + Backbone to independant React applications improving performance and helping ship features faster',
+        'Pair programmed with collegues to learn and implement backend features in Golang or Rails as necessary',
+        'Created a single GraphQL API on Lambdas, combining multiple GraphQL and REST services providing a single layer for clients to interact with.'
       ]}
     />
     <SectionBody
       company="ADP"
-      title="Application Developer"
-      rightText="Apr 17 - Sept 18"
-      title2="Senior Application Developer"
-      rightText2="Sept 18 - Present"
+      title="Senior Application Developer"
+      rightText="Apr 17 - Dec 18"
       body={[
         `Worked on a mission critical application that provided a "One stop shop" for all service and CRM relevant information to assist clients on phone or chat.`,
         'Created and managed NodeJS microservices for different features in the application.',
